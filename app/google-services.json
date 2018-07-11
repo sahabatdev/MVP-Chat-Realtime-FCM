@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "203048767640",
+    "firebase_url": "https://toko-buku-232df.firebaseio.com",
+    "project_id": "toko-buku-232df",
+    "storage_bucket": "toko-buku-232df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203048767640:android:75694e4fcd10841e",
+        "android_client_info": {
+          "package_name": "com.sahabatdeveloper.realtimechatsahabatdeveloper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203048767640-rlddlujhanknl2h5m6mc6gdcvevi4nc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahabatdeveloper.realtimechatsahabatdeveloper",
+            "certificate_hash": "da8ef6c6e6fdeeb44faa1688dca9dd1d6534e791"
+          }
+        },
+        {
+          "client_id": "203048767640-5saku2r1oskgemhnk0pq3bo4rai9glbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgZK3ODDXutFwVehceNGvV_taKzOmA5aQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203048767640-5saku2r1oskgemhnk0pq3bo4rai9glbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
