@@ -4,12 +4,12 @@ Aplikasi Android Chat Realtime MVP menggunakan FCM
 Cara Membuat Push Notification :
 1. Pertama buat project di firebase
 2. Jangan lupa downloand google-service.json dan taruh di folder app
-3. Lalu lihat file yang terdapat kata-kata firebase, selain itu hanya di perlukan saat membuat chat realtime
+3. Lalu lihat file yang terdapat kata-kata firebase, selain itu hanya di perlukan saat membuat chat realtime dan jangan lupa check file manifest untuk inisialisasi service nya.
 4. Untuk tes notifikasi anda bisa request melalui postman seperti berikut jika menggunakan curl 
 
 curl -X POST \
   https://fcm.googleapis.com/fcm/send \
-  -H 'Authorization: key=AAAAOqk6gJc:APA91bEZuYZH7gzDz7hbUGSdKvzg-AsXTnC37GdVUzbwaULd6Wikb0GCoe0DDqhsjpnXbZYvXfvkuV0SE80dA0kDeBQd4v3lhZlKlIORe18qIbAr5vu3XSGDg5YsACHZWWFF3C8eXHw_' \
+  -H 'Authorization: key=AAAAL0amUJg:APA91bHhj1qJtLTZJQO9SOJrnMh8vehyuMLs_hLx3tD7giiPwTyg8CaeZE_b20ddw2sbYMrDcPGyhu-xoXQSzD4DMEbgTdkByvsqVbIu43ojcTZQouKzRKhSGNOKh__xP1pPV4g5SPq7P3M6pCEPkEMATs_ZU-OsOg' \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: 7fb99ecb-531d-4359-a5d8-15cbf8aaea23' \
